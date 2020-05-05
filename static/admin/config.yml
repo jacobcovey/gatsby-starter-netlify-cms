@@ -43,19 +43,6 @@ collections:
           - {label: FAQ Accordian, name: faq1Accordian, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Subtitle, name: subtitle, widget: string}, {label: Accordian, name: accordian, widget: list, fields: [{label: Question, name: question, widget: string}, {label: Answer, name: answer, widget: text}]}]}
           - {label: Content Steps, name: contentSteps1, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Subtitle, name: subtitle, widget: string}, {label: Content Steps, name: contentSteps, widget: list, fields: [{label: Step Icon, name: stepIcon, widget: image}, {label: Step Title, name: stepTitle, widget: string}, {label: Step Description, name: stepDescription, widget: string}]}]}
           - {label: Call To Action, name: cta1basic, widget: object, fields: [{label: Large Title, name: largeTitle, widget: string}, {label: Subtitle Bold, name: subtitleBold, widget: string}, {label: Subtitle Light, name: subtitleLight, widget: string}, {label: Button Text, name: buttonText, widget: string}]}
-      # - file: "src/pages/index.md"
-      #   label: "Landing Page"
-      #   name: "index"
-      #   fields:
-      #     - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-      #     - {label: Title, name: title, widget: string}
-      #     - {label: Image, name: image, widget: image}
-      #     - {label: Heading, name: heading, widget: string}
-      #     - {label: Subheading, name: subheading, widget: string}
-      #     - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
-      #     - {label: Description, name: description, widget: string}
-      #     - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-      #     - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
