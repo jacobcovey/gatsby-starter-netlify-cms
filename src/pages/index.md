@@ -1,70 +1,83 @@
 ---
+
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
-mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
-intro:
-  blurbs:
-    - image: /img/coffee.png
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
-  heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
-main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+hero1Form:
+  heading: Have you been injured in an auto accident?
+  subheading: If you've suffered pain or injury from a t-bone collision or any other car accident, the personal attorneys at 1Law will work tirelessly to help you obtain the compensation you are entitled to.
+  asFeaturedIn: 
+    - image: /img/law_nat-law-journal.png
+    - image: /img/law_forbes.png
+    - image: /img/law_st-george-news.png
+contentStats1:
+  title: Results matter
+  subtitle: We’ve obtained these settlements for our clients
+  settlementExamples:
+    - settlementDollarAmount: 300000
+      settlementDescription: in a recent car accident settlement
+    - settlementDollarAmount: 50000000
+      settlementDescription: in total auto related settlements to date
+    - settlementDollarAmount: 5500000
+      settlementDescription: in a trucking accident settlement
+contentPhoto1:
+  title: 1law has you covered
+  subtitle: We Handle Many Cases Of Auto Related Injury
+  description: Injury as a result of an intersection accident, rear-end or countless other auto-incidents are suffered daily. We understand these unplanned occasions can be difficult to recover from. That is why our personal injury attorneys work with clients to help them receive the compensation they are entitled to.
+  photo: /img/law_crashed-car.jpeg
+  checklist:
+    - itemText: Car Accident
+    - itemText: Truck Accident
+    - itemText: Bus Accident
+    - itemText: Uber/Lyft Accident
+    - itemText: Motorcyle Accident
+    - itemText: Bicycle Accident
+    - itemText: Pedestrian Accident
+    - itemText: Scooter Accident
+contentIcons1:
+  title: And can help with the resulting personal injury cases
+  iconList:
+    - icon: /img/law_forbes.png
+      itemText: Disfigurement
+    - icon: /img/law_forbes.png
+      itemText: Impairment
+    - icon: /img/law_forbes.png
+      itemText: Spinal Injury
+    - icon: /img/law_forbes.png
+      itemText: Surgeries
+    - icon: /img/law_forbes.png
+      itemText: Emotional Trauma
+    - icon: /img/law_forbes.png
+      itemText: Death
+    - icon: /img/law_forbes.png
+      itemText: Brain Injury
+    - icon: /img/law_forbes.png
+      itemText: Broken Bones
+testi1Slider:
+  slider:
+    - testiText: When my son was injured, everyone at 1law fought for him, helped him find a great doctor, paid his bills and even put some money in his pocket. They will always be my first call!
+      clientName: Georgina C.
+      caseType: Auto Accident
+faq1Accordian:
+  title: Frequently Asked questions
+  subtitle: We’re Here to Help
+  accordian:
+    - question: What is a full and final settlement?
+      answer: Settling an injury claim is an important decision. You must remember that once you settle the insurance company is going to ask for a full and final settlement. This means you cannot go back for additional compensation or expenses once you have settled. 
+contentSteps1:
+  title: How it works
+  subtitle: FREE case consultation - No recovery, no fee.
+  contentSteps:
+    - stepIcon: /img/law_forbes.png
+      stepTitle: "Step 1: We do a FREE case consultation"
+      stepDescription: We’ll talk with you about your accident or injury to fully understand your pains, worries, and needs.
+    - stepIcon: /img/law_forbes.png
+      stepTitle: "Step 2: We research and build a case for you"
+      stepDescription: Our experienced team will navigate your case and make sure you know what benefits you are entitled to.
+    - stepIcon: /img/law_forbes.png
+      stepTitle: "Step 3: We get you maximum compensation"
+      stepDescription: Our skilled personal injury attorneys are committed to maximizing compensation recovery on behalf of personal injury victims.
+cta1basic:
+  largeTitle: Let’s Get Started
+  subtitleBold: Call us at 1-800-CALL-1LAW
+  subtitleLight: (800-225-5152)
+  buttonText: Get a Free Consultation
 ---
