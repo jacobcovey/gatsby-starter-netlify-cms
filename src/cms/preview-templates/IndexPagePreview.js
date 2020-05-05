@@ -5,21 +5,22 @@ import { IndexPageTemplate } from '../../templates/index-page'
 const IndexPagePreview = ({ entry, getAsset }) => {
   const data = entry.getIn(['data']).toJS()
 
-  // if (data) {
-  //   return (
-  //     // <IndexPageTemplate
-  //     //   image={getAsset(data.image)}
-  //     //   title={data.title}
-  //     //   heading={data.heading}
-  //     //   subheading={data.subheading}
-  //     //   description={data.description}
-  //     //   intro={data.intro || { blurbs: [] }}
-  //     //   mainpitch={data.mainpitch || {}}
-  //     // />
-  //   )
-  // } else {
+  if (data) {
+    return (
+      <IndexPageTemplate
+        hero1Form={data.hero1Form || {}}
+        contentStats1={data.contentStats1 || {}}
+        contentPhoto1={data.contentPhoto1 || {}}
+        contentIcons1={data.contentIcons1 || {}}
+        testi1Slider={data.testi1Slider || {}}
+        faq1Accordian={data.faq1Accordian || {}}
+        contentSteps1={data.contentSteps1 || {}}
+        cta1basic={data.cta1basic || {}}
+      />
+    )
+  } else {
     return <div>Loading...</div>
-  // }
+  }
 }
 
 IndexPagePreview.propTypes = {
